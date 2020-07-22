@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Reader Review </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/636ceb4e71.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.png">
+    <script src="js/script.js"></script>
+  </head>
+  <body onload="animate()">
+    <header> <h1> Reader Review </h1>
+      <i class="fas fa-bars fa-4x" id="bars" onclick="nav()"></i>
+      <nav id="myLinks">
+        <a href="#maincontent" id="access"> Skip to Main Content </a>
+        <a href="index.html" class="active"> Home </a>
+        <a href="getting-involved.html"> Getting Involved </a>
+        <a href="genres.html"> Genres </a>
+        <a href="recommended.html"> Recommendations </a>
+        <a href="references.html"> References </a>
+      </nav>
+    </header>
+    <img src="images/header-book.jpg" alt="Book Setup" class="main"/>
+    <main id="maincontent">
+      <section>
+        <h2> Welcome! </h2>
+        <p> Whether you're an avid reader or you've never picked up a book in your life, you've come to the right place. Here, you'll be able to explore options for recreational reading. I won't be reviewing informational books, and I will only briefly cover non-fiction. However, there will be a lot of discussion on fictional genres. Also, the primary target audience for these books will be young adults, but anyone can read and enjoy them. Have fun! </p>
+        <img src="images/fiction-scenery.jpg" alt="">
+      </section>
+      <article>
+        <nav>
+          <button class="h3" onclick="click_get_involved()" id="get_involved"> Getting Involved </button>
+          <button class="h3" onclick="click_genres()" id="genres"> Genres </button>
+          <button class="h3" onclick="click_recommendations()" id="recommend"> Recommendations </button>
+        </nav>
+        <div class="article-background">
+          <i class="fas fa-bookmark fa-6x" id="bookmark"></i>
+          <p id="change"> Do you have trouble picking up a book? It is definitely difficult to become interested in reading after years, or even months. This page will help you get started and explore your interests. Click the icon to get started!</p>
+          <a href="getting-involved.html" id="reference"><i class="fas fa-book fa-7x" id="book"></i></a>
+        </div>
+      </article>
+    </main>
+    <aside>
+      <img src="images/profile.jpg" alt="My Profile"/>
+      <p> Hi! My name is Shruti Balla, and I am going to 9th grade in the fall. This is almost my third year doing web design, and I love it! I enjoy coding (obviously), reading (obviously), and running. My favorite school subject is currently social studies, but that usually changes every year. I'm doing Coursera because I hope to expand my knowledge of web design, and prepare myself for AP computer courses in the school year. Enjoy the website! </p>
+    </aside>
+    <img src="images/frame1.jpg" alt="" id="animation"/>
+    <footer>
+      <p> "Books are a uniquely portable magic" ~Stephen King </p>
+    </footer>
+  </body>
+</html>

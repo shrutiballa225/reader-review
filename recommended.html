@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Reader Review </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/636ceb4e71.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.png">
+    <script src="js/script.js"></script>
+  </head>
+  <body onload="animate()">
+    <header> <h1> Reader Review </h1>
+      <i class="fas fa-bars fa-4x" id="bars" onclick="nav()"></i>
+      <nav id="myLinks">
+        <a href="#maincontent" id="access"> Skip to Main Content </a>
+        <a href="index.html"> Home </a>
+        <a href="getting-involved.html"> Getting Involved </a>
+        <a href="genres.html"> Genres </a>
+        <a href="recommended.html" class="active"> Recommendations </a>
+        <a href="references.html"> References </a>
+      </nav>
+    </header>
+    <img src="images/header-book.jpg" alt="Book Setup" class="main"/>
+    <main id="maincontent">
+      <section>
+        <h2> Recommendations </h2>
+        <p> Now, the moment you've all been waiting for, my personal recommendations! These five books vary in genre, so there may be some that you want to check out and some you dislike. I also have some other recommendations from my bookshelf that specialize in different areas, so I can appeal to the widest audience possible. I really hope that you can get the most out of my recommendations! </p>
+        <img src="images/space.JPG" alt="" class="penguin"/>
+        <details class="hundred-width">
+          <summary> My Top 5 Favorite Books </summary>
+          <section id="top-5-container">
+            <h2 id="top-5-header">5. Internment</h2>
+            <img src="images/internment.jpg" alt="Internment by Samira Ahmed" title="Internment" class="books" id="top-5-image"/>
+            <div class="top-5-all-ps">
+              <p id="top-5">At number 5 we have Internment by Samira Ahmed. Internment is about a 17 year old girl named Layla living in a futuristic United States. When the government begins to transport Muslim families to internment camps, Layla and her family are forced to live under constant scrutiny with hundreds of other families. Layla is absolutely furious, and she takes a stand, with newly made friends and modern technology, to fight against oppression.</p>
+              <br>
+              <p id="top-5-p2">I classified this book as dystopian fiction. I really love this book because it makes several connections to previous oppressive camps in U.S history, and it paints the vivid picture of how history does, in fact, repeat itself. It has the whole package; societal messages, humor, despair, hope, love. It has everything a modern book needs, especially its eye-opening qualities.</p>
+            </div>
+            <button onclick="changeBook()" id="book-changer" class="button"> Next Book! </button>
+          </section>
+        </details>
+      </section>
+      <section>
+        <h2> Other Books I Recommend </h2>
+        <p> Here are some other books I sincerely enjoyed reading. They didn't make my Top 5, but I felt that they should still be included. </p>
+      </section>
+      <aside>
+        <img src="images/lone-survivor.jpg" alt="Lone Survivor: Operation Redwing" title="Lone Survivor" class="books"/>
+        <p> Lone Survivor by Marcus Luttrell. This is one of the few non-fiction books that I've read that have been worth reading. It tells the story of Marcus Luttrell and his indomitable comrades on Operation Redwing as Navy SEALs. It is captivating, moving, and inspiring, and at times you will wonder if the surreal events in the story actually happened. </p>
+      </aside>
+      <aside>
+        <img src="images/hunger-games.jpg" alt="The Hunger Games" title="The HUnger Games" class="books"/>
+        <p> The Hunger Games by Suzanne Collins. The Hunger Games is a trilogy, but I enjoyed the first one the best. It is a science-fiction dystopian novel that takes place in a futuristic world. It follows the story of Katniss Everdeen from District 12 into the Hunger Games and how her small acts of rebellion against the Capitol evolve into something greater. This is definitely a worthwhile read, and the events are very action-packed, exciting, and humorous.</p>
+      </aside>
+      <aside>
+        <img src="images/long-way-down.jpg" alt="Long Way Down" title="Long Way Down" class="books"/>
+        <p> Long Way Down by Jason Reynolds. Long Way Down is a realistic fiction book that takes place over the course of 60 seconds. Will's brother, Shawn, is shot by, according to Will's suspicions, Riggs. Will steps on to an elevator with a gun, ready to get his revenge. However, people begin to get on the elevator, people connected to his brother that couldn't possibly be there. They tell him stories that make him doubt himself. This book is told in the form of a free verse poem, and there are so many strong symbols and deep messages. </p>
+      </aside>
+    </main>
+    <img src="images/frame1.jpg" alt="" id="animation"/>
+    <footer>
+      <p> "Books are a uniquely portable magic" ~Stephen King </p>
+    </footer>
+  </body>
+</html>

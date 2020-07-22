@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Reader Review </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/636ceb4e71.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.png">
+    <script src="js/script.js"></script>
+  </head>
+  <body onload="open_details(); animate();">
+    <header> <h1> Reader Review </h1>
+      <i class="fas fa-bars fa-4x" id="bars" onclick="nav()"></i>
+      <nav id="myLinks">
+        <a href="#maincontent" id="access"> Skip to Main Content </a>
+        <a href="index.html"> Home </a>
+        <a href="getting-involved.html" class="active"> Getting Involved </a>
+        <a href="genres.html"> Genres </a>
+        <a href="recommended.html"> Recommendations </a>
+        <a href="references.html"> References </a>
+      </nav>
+    </header>
+    <img src="images/header-book.jpg" alt="Book Setup" class="main">
+    <main id="maincontent">
+      <section>
+        <h2> Getting Involved </h2>
+        <p>So, you're getting involved. Where to start? First, you'll need to evaluate your interests. Have you ever done a report in school about a topic you're passionate about? What are your hobbies? For some people, this will be easier than others.</p>
+        <img src="images/penguin.JPG" alt="" class="penguin"/>
+        <details id="details">
+          <summary> Examples </summary>
+          <p>An example could be that if someone is extremely interested in social justice issues or politics, they might look for books such as <a href="https://www.amazon.com/All-American-Boys-Jason-Reynolds/dp/1481463330" target="_blank">All American Boys</a> by Jason Reynolds or <a href="https://www.amazon.com/Anger-Gift-Novel-Mark-Oshiro/dp/1250167027" target="_blank">Anger is a Gift</a> by Mark Oshiro.</p>
+          <p>Other examples could be someone's interest in: </p>
+          <ul>
+            <li> sports (like <a href="https://www.amazon.com/Crossover-Kwame-Alexander/dp/0544107713" target="_blank">The Crossover</a> by Kwame Alexander) </li>
+            <li> mythology (like <a href="https://www.amazon.com/Percy-Jackson-Olympians-5-books/dp/B00O3HCYRS" target="_blank">The Percy Jackson series</a> by Rick Riordan) </li>
+            <li> history from any country and any time (like <a href="https://www.amazon.com/Nightingale-Novel-Kristin-Hannah/dp/1250080401" target="_blank">The Nightingale</a> by Kristin Hannah) </li>
+          </ul>
+          <p>Long story short, as long as you are interested in something, or even midly fascinated, try to find books concerning that topic.</p>
+        </details>
+        <span class="involved-images">
+          <img src="images/anger-is-a-gift.jpg" alt="Anger is a Gift" title="Anger is a Gift" class="books"/>
+          <img src="images/nightingale.jpg" alt="The Nightingale" title="The Nightingale" class="books"/>
+        </span>
+      </section>
+      <section>
+        <h2> Navigation & Searching </h2>
+        <p class="inline-p"> Once you have a general topic, go online and explore. I recommend searching <a href="https://www.amazon.com/" target="_blank">amazon.com</a> or <a href="https://www.goodreads.com/" target="_blank">goodreads.com</a>, but there are many other websites you can search as well. You can also visit your local library, where the librarians may help you out as well. Once you've found a book you may be interested in, ask or search around for one or two more that are similar. You may not like the book you've chosen, so it's good to have some alternates. </p>
+        <hr>
+        <p class="inline-p"> Still having trouble? Don't worry, it may take some time. Try checking out some different genres on the Genres page. It'll help you connect your interests to different genres, which gives you a general view of what you're looking for. </p>
+      </section>
+      <section>
+        <u> Good Luck! </u>
+        <div class="next-page">
+          <i class="fas fa-arrow-right arrow"></i>
+          <a href="genres.html" class="a-button"> Genres </a>
+          <i class="fas fa-arrow-left arrow"></i>
+        </div>
+      </section>
+    </main>
+    <img src="images/frame1.jpg" alt="" id="animation"/>
+    <footer>
+      <p> "Books are a uniquely portable magic" ~Stephen King </p>
+    </footer>
+  </body>
+</html>
