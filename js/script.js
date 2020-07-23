@@ -108,7 +108,7 @@ if (screen.width > 1000) {
 }
 // Aninmation Code!!! //
 
-var images = ["file:///C:/Users/shrut/Coursera/images/frame1.jpg", "file:///C:/Users/shrut/Coursera/images/frame2.jpg", "file:///C:/Users/shrut/Coursera/images/frame3.jpg", "file:///C:/Users/shrut/Coursera/images/frame4.jpg", "file:///C:/Users/shrut/Coursera/images/frame5.jpg", "file:///C:/Users/shrut/Coursera/images/frame6.jpg", "file:///C:/Users/shrut/Coursera/images/frame7.jpg", "file:///C:/Users/shrut/Coursera/images/frame8.jpg", "file:///C:/Users/shrut/Coursera/images/frame9.jpg", "file:///C:/Users/shrut/Coursera/images/frame10.jpg", "file:///C:/Users/shrut/Coursera/images/frame11.jpg", "file:///C:/Users/shrut/Coursera/images/frame12.jpg"];
+var images = ["images/frame1.jpg", "images/frame2.jpg", "images/frame3.jpg", "images/frame4.jpg", "images/frame5.jpg", "images/frame6.jpg", "images/frame7.jpg", "images/frame8.jpg", "images/frame9.jpg", "images/frame10.jpg", "images/frame11.jpg", "images/frame12.jpg"];
 
 function animate() {
   setInterval(rotate, 250);
